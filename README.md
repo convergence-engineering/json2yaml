@@ -1,10 +1,7 @@
 json2yaml
 ===
 
-A command-line utility to convert JSON to YAML (meaning a `.json` file to a `.yml` file)
-
-The purpose of this utility is to pretty-print JSON in the human-readable YAML object notation
-(ignore the misnomer, YAML is not a Markup Language at all).
+A command-line utility to convert JSON to YAML and YAML to JSON (meaning a `.json` file to a `.yml` file)
 
 Installation
 ===
