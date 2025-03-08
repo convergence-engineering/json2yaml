@@ -1,0 +1,38 @@
+{
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.com)",
+  "name": "json2yaml",
+  "description": "A commandline utility to convert JSON to YAML / YML",
+  "keywords": [
+    "yml",
+    "yaml",
+    "json",
+    "cli",
+    "util"
+  ],
+  "version": "1.1.0",
+  "license": "Apache-2.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coolaj86/json2yaml.git"
+  },
+  "bin": {
+    "json2yaml": "./bin/json2yaml.ts",
+    "jsontoyaml": "./bin/json2yaml.ts",
+    "jsontoyml": "./bin/json2yaml.ts",
+    "json2yml": "./bin/json2yaml.ts",
+    "yaml2json": "./bin/yaml2json.ts",
+    "yamltojson": "./bin/yaml2json.ts",
+    "ymltojson": "./bin/yaml2json.ts",
+    "yml2json": "./bin/yaml2json.ts"
+  },
+  "test": "echo 'error no test'; exit 1",
+  "preferGlobal": true,
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4"
+  }
+}
